@@ -3,11 +3,11 @@ import { GridList, GridTile } from "material-ui/GridList";
 import IconButton from "material-ui/IconButton";
 import Subheader from "material-ui/Subheader";
 import StarBorder from "material-ui/svg-icons/toggle/star-border";
+import { Card } from "material-ui";
 
 const styles = {
   root: {
     display: "flex",
-    flexWrap: "wrap",
     justifyContent: "space-around"
   },
   gridList: {
@@ -64,14 +64,7 @@ class Dummy extends Component {
   render() {
     return (
       <div style={styles.root}>
-        <GridList cols="4" cellHeight="auto" style={styles.gridList}>
-          <Subheader>December</Subheader>
-          {tilesData.map(tile => (
-            <GridTile key={tile.img}>
-              <img src={tile.img} />
-            </GridTile>
-          ))}
-        </GridList>
+        <Card />
       </div>
     );
   }
