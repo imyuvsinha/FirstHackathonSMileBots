@@ -1,3 +1,4 @@
+//cnfg
 const config = {
   apiKey: "AIzaSyC3udb2_WCXPBQ1HOuRs1UF1aCfMGG_JU4",
   authDomain: "project-s-41fe0.firebaseapp.com",
